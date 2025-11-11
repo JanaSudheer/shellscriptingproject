@@ -4,7 +4,7 @@ A small Bash script to list AWS resources for a given region and service.
 
 ## Overview
 
-This repository contains a single script: `aws_resourse_list.sh` (note: original filename contains a typo in "resource"). The script queries AWS using the AWS CLI to list resources for commonly used services (EC2, RDS, S3, CloudFront, VPC, IAM, Route53, CloudWatch, CloudFormation, Lambda, SNS, SQS, DynamoDB, EBS).
+This repository contains a single script: `aws_service_list.sh`. The script queries AWS using the AWS CLI to list resources for commonly used services (EC2, RDS, S3, CloudFront, VPC, IAM, Route53, CloudWatch, CloudFormation, Lambda, SNS, SQS, DynamoDB, EBS).
 
 > **Tip:** The script expects the AWS CLI to be installed and configured with credentials that have appropriate permissions.
 
